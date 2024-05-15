@@ -32,8 +32,28 @@
 }
 
 #slider figure:hover {
-	/*animation-play-state: paused; enable for pause on hover*/
+	animation-play-state: paused;
 }
 #slider figure img {
 	float: left;
+}
+.animate{
+    display: inline-block;
+    position: relative;
+    bottom: 70vh;
+}
+.animate h1{
+    font-size: 25vh;
+
+}
+.animate h3{
+    font-size: 15vh;
+}
+@keyframes animate {
+	0% { left: 50vw; }
+	35% { left: 30vw; }
+    100% { left: 0vw; }
+}
+.animate{
+    animation: 4s animate ease-in-out;
 }
