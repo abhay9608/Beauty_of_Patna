@@ -37,16 +37,16 @@
 #slider figure img {
 	float: left;
 }
-.animate{
+.animat{
     display: inline-block;
     position: relative;
     bottom: 70vh;
 }
-.animate h1{
+.animat h1{
     font-size: 25vh;
 
 }
-.animate h3{
+.animat h3{
     font-size: 15vh;
 }
 @keyframes animate {
@@ -54,6 +54,6 @@
 	35% { left: 30vw; }
     100% { left: 0vw; }
 }
-.animate{
+.animat{
     animation: 4s animate ease-in-out;
 }
